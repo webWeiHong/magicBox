@@ -1,0 +1,60 @@
+.top>p{
+	margin-left: 2.13rem;
+}
+#tab{
+	height: 1.11rem;
+}
+
+#tab li{
+	float: left;
+	width: 33.33%;
+	height: 1.11rem;
+	line-height: 1.11rem;
+	text-align: center;
+	font-size: 0.39rem;
+	background: #FFFFFF;
+}
+#tab li p{
+	display: inline-block;
+	color: #000000;
+	margin: 0 auto;
+}
+#tab .normal p{
+	color: #1fbad6;
+	border-bottom: 0.03rem solid #1fbad6;
+}
+
+.list{
+	margin-top: 0.28rem;
+	position: absolute;
+	top: 2.61rem;
+	display: none;
+}
+
+.list li{
+	width: 10rem;
+	height: 1.2rem;
+	background: #FFFFFF;
+	border-bottom: 1px solid #c7c7c7;
+	clear: both;
+}
+.list li:last-child{
+	border-bottom: none;
+}
+.normal2{
+	display: block;
+}
+.list li p:first-child{
+	float: left;
+	margin-left: 0.56rem;
+	line-height: 1.2rem;
+	font-size: 0.39rem;
+	color: #000000;
+}
+.list li p:last-child{
+	float: left;
+	margin-left: 0.46rem;
+	line-height: 1.2rem;
+	font-size: 0.39rem;
+	color: #000000;
+}

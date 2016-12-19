@@ -1,0 +1,39 @@
+.wrap{
+	width: 10rem;
+}
+.top{
+	height: 1.2rem;
+	background: #1b1a20;
+}
+.back{
+	width: 1.2rem;
+	float: left;
+	margin-left: 0.31rem;	
+	height: 1.2rem;
+	color: #ffffff;	
+	font-size: 0.39rem;
+}
+.back img{
+	float: left;
+	width: 0.28rem;
+	height: 0.46rem;
+	margin-top: 0.37rem;
+}
+.back p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 0.14rem;
+}
+.top>p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 3.05rem;
+	font-size: 0.45rem;
+	color: #FFFFFF;
+}
+.menu{
+	width: 0.6rem;
+	height: 0.15rem;
+	float: right;
+	margin: 0.53rem 0.33rem 0 0;
+}

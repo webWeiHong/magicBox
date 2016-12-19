@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的学生</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacher_myStudent.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top"><a href="" onClick="javascript :history.back(-1);">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div></a>
+				<p>我的学生</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		
+		<ul>
+			<a href="teacher_allStudent.html"><li><p>所有学生</p><img src="../image/icon-right.png" "/></li></a>
+			<a href=""><li><p>组1</p><img src="../image/icon-right.png" "/></li></a>
+		</ul>
+		<a href="teacher_addGroup.html"><div id="addGroup">新建组</div></a>
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	})
+</script>

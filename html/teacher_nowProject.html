@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>进行中的课程</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacher_nowproject.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top"><a href="" onClick="javascript :history.back(-1);">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div></a>
+				<p>进行中的课程</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		
+		<ul id="title">
+			<li>订单日期</li>
+			<li>科目</li>
+			<li>学生</li>
+			<li>剩余课时/总课时</li>
+		</ul>
+		
+		<ul id="info">
+			<li>12345</li>
+			<li>钢琴0-2级</li>
+			<li>张鹏</li>
+			<li>1/4&nbsp;&nbsp;节<img src="../image/xlxz.png" alt="" /></li>
+		</ul>
+		
+		<ul id="list">
+			<li>
+				<p>钢琴0-2级</p>
+				<p>第一课时</p>
+				<p><span class="blue">已确认</span></p>
+			</li>
+			<li>
+				<p>钢琴0-2级</p>
+				<p>第二课时</p>
+				<p><span class="orange">确认</span></p>
+			</li>
+			<li>
+				<p>钢琴0-2级</p>
+				<p>第三课时</p>
+				<p><span class="orange">确认</span></p>
+			</li>
+			<li>
+				<p>钢琴0-2级</p>
+				<p>第四课时</p>
+				<p><span class="orange">确认</span></p>
+			</li>
+		</ul>
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	})
+</script>

@@ -1,0 +1,77 @@
+#user{
+	height: 2.34rem;
+	background: #FFFFFF;
+	padding: 0.47rem 0.56rem 0 0;
+	position: relative;
+}
+#user p{
+	position: absolute;
+	top: 0.96rem;
+	left: 0.57rem;
+	font-size: 0.37rem;
+	color: #000000;
+}
+#user div{
+	width: 1.39rem;
+	height: 1.39rem;
+	background: #cacaca;
+	border-radius: 10%;
+	float: right;
+}
+#list li>div{
+	border-top: 1px solid #cacaca;
+	margin-left: 0.57rem;
+}
+#list li{
+	height: 1.13rem;
+	background: #FFFFFF;
+	font-size: 0.37rem;
+	position: relative;
+}
+#list li p:first-child{
+	position: absolute;
+	top: 0.37rem;
+	left: 0.57rem;
+}
+#list li p:last-child{
+	position: absolute;
+	top: 0.37rem;
+	left: 2.47rem;
+}
+#list li input{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	top: 0.37rem;
+	left: 2.47rem;
+}
+#list li #woman{
+	position: absolute;
+	top: 0.37rem;
+	left: 4.28rem;
+}
+#list li span{
+	position: absolute;
+	top: 0.37rem;
+	left: 3.08rem;
+}
+#list li span:last-child{
+	position: absolute;
+	top: 0.37rem;
+	left: 4.89rem;
+}
+#list li img{
+	width: 0.6rem;
+	height: 0.64rem;
+	position: absolute;
+	top: 0.24rem;
+	right: 0.64rem;
+}
+#change{
+	margin-top: 0.28rem;
+	width: 10rem;
+	height: 1.21rem;
+	border: none;
+	font-size: 0.37rem;
+	background: #FFFFFF;
+}

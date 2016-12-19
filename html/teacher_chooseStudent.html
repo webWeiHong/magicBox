@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>选择学生</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacher_chooseStudent.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top"><a href="" onClick="javascript :history.back(-1);">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div></a>
+				<p>选择学生</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		
+		<ul>
+			<li><div class="pic"></div><p class="name">张鹏</p><p class="subject">钢琴0-2级小课第2课时进行中</p><div class="checkboxFour">
+				<input type="checkbox" value="1" id="checkboxFourInput" name="name" />
+				<label for="checkboxFourInput"></label>
+			</div></li>
+			<li><div class="pic"></div><p class="name">张鹏</p><p class="subject">钢琴0-2级小课第2课时进行中</p><div class="checkboxFour">
+				<input type="checkbox" value="1" id="checkboxFourInput2" name="name" />
+				<label for="checkboxFourInput2"></label>
+			</div></li>
+		</ul>
+		<a href="teacher_ArrangementWork.html"><div id="addGroup">确定</div></a>
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	})
+</script>

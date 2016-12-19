@@ -1,0 +1,39 @@
+.top>p{
+	margin-left: 2.63rem;
+}
+
+h5{
+	font-weight: normal;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	color: #000000;
+	font-size: 0.32rem;
+	text-indent: 0.56rem;
+}
+.info{
+	height: 4.17rem;
+	background: #dedede;
+	padding-top: 0.14rem;
+}
+.info p{
+	text-indent: 0.56rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.35rem;
+	color: #000000;
+	font-family: "黑体";
+}
+.workContent{
+	width: 2.4rem;
+	float: left;
+}
+.info .content{
+	text-indent: 0;
+	margin-left: -0.1rem;
+	float: left;
+	width: 7.5rem;
+	height: 2.69rem;
+	line-height: 0.6rem;
+	font-size: 0.35rem;
+	color: #000000;
+}

@@ -1,0 +1,75 @@
+.top>p{
+	margin-left: 2.63rem;
+}
+
+h5{
+	font-weight: normal;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	color: #000000;
+	font-size: 0.32rem;
+	text-indent: 0.56rem;
+}
+.info{
+	height: 4.17rem;
+	background: #dedede;
+	padding-top: 0.14rem;
+}
+.info p{
+	text-indent: 0.56rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.35rem;
+	color: #000000;
+	font-family: "黑体";
+}
+.workContent{
+	width: 2.4rem;
+	float: left;
+}
+.info .content{
+	text-indent: 0;
+	margin-left: -0.1rem;
+	float: left;
+	width: 7.5rem;
+	height: 2.69rem;
+	line-height: 0.6rem;
+	font-size: 0.35rem;
+	color: #000000;
+}
+
+.workVideo li{
+	float: left;
+	width: 1.39rem;
+	height: 1.39rem;
+	margin: 0.28rem 0.57rem;
+	border-radius: 10%;
+	background: #a9a9a9;
+}
+.workVideo li div{
+	width:0;
+    height:0;
+    border-width:0.24rem 0 0.24rem 0.48rem;
+    border-style:solid;
+    border-color:transparent transparent transparent #FFFFFF;
+    margin: 0.43rem auto;
+}
+
+.comment{
+	clear: both;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	color: #000000;
+	font-size: 0.32rem;
+	text-indent: 0.56rem;
+}
+textarea{
+	text-indent: 0.67rem;
+	width: 10rem;
+	height: 4.17rem;
+	background: #dedede;
+	line-height: 0.6rem;
+	border: none;
+	padding: 0.14rem 0.52rem 0 0.56rem;
+	font-family: "黑体";
+}

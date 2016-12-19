@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacher_info.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top"><a href="" onClick="javascript :history.back(-1);">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div></a>
+				<p>我的</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		
+		<div id="user">
+			<p>头像</p>
+			<div></div>
+		</div>
+		
+		<ul id="list">
+			<li><div>
+				<p>姓名</p>
+				<p></p>
+			</div></li>
+			<li><div>
+				<p>性别</p>
+				<input type="radio" name="sex" id="man" value="" checked="checked"/><span>男</span>
+				<input type="radio" name="sex" id="woman" value="" /><span>女</span>
+			</div></li>
+			<li><div>
+				<p>生日</p>
+				<p></p>
+			</div></li>
+			<li><div>
+				<p>家庭地址</p>
+				<p></p>
+				<img src="../image/map.png"/>
+			</div></li>
+		</ul>
+		<button id="change">修改资料</button>
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	})
+</script>

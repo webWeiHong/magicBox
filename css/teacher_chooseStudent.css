@@ -1,0 +1,91 @@
+.top>p {
+	margin-left: 2.63rem;
+}
+
+ul {
+	background: #FFFFFF;
+}
+
+ul li {
+	width: 9.44rem;
+	height: 1.94rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #cacaca;
+	position: relative;
+}
+
+ul li:last-child {
+	border-bottom: none;
+}
+
+ul li .pic {
+	width: 1.39rem;
+	height: 1.39rem;
+	border-radius: 10%;
+	background: #d8d8d8;
+	position: absolute;
+	top: 0.28rem;
+	left: 0.09rem;
+}
+
+ul li .name {
+	position: absolute;
+	top: 0.37rem;
+	left: 1.78rem;
+	color: #000000;
+	font-size: 0.4rem;
+}
+
+ul li .subject {
+	position: absolute;
+	color: #000000;
+	top: 1.13rem;
+	left: 1.78rem;
+	font-size: 0.4rem;
+}
+
+#addGroup {
+	width: 10rem;
+	height: 1.35rem;
+	background: #3693fa;
+	font-size: 0.41rem;
+	color: #FFFFFF;
+	line-height: 1.35rem;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+
+
+/*隐藏checkbox*/
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.checkboxFour {
+	float: right;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #FFFFFF;
+	margin: 0.7rem 0.3rem 0 0;
+	border: 1px solid #3693fa;
+	border-radius: 100%;
+	position: relative;
+}
+
+.checkboxFour label {
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 100%;
+	position: absolute;
+	top: 0.03rem;
+	left: 0.03rem;
+	z-index: 1;
+	background: #FFFFFF;
+}
+
+/*当复选框被选中时，改变内圈的背景色*/
+.checkboxFour input[type=checkbox]:checked+ label {
+	background: #3693fa;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacher_mine.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top"><a href="" onClick="javascript :history.back(-1);">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div></a>
+				<p>我的</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		
+		<div id="user">
+			<div id="pic"></div><a href="teacher_info.html">
+			<span id="userName">陈妙君</span>
+			<img src="../image/icon-right.png"/></a>
+		</div>
+		
+		<ul id="list">
+			<li><img src="../image/teach-m1.png"/><a href=""><div>
+				<span>我的日程</span><img src="../image/icon-right.png" />
+			</div></a></li>
+			<li><img src="../image/teach-m2.png"/><a href="teacher_myStudent.html"><div>
+				<span>我的学生</span><img src="../image/icon-right.png" />
+			</div></a></li>
+			<li><img src="../image/teach-m3.png"/><a href="teacher_works.html"><div>
+				<span>作业汇总</span><img src="../image/icon-right.png" />
+			</div></a></li>
+			<li><img src="../image/teach-m4.png"/><a href="teacher_nowProject.html"><div>
+				<span>进行中的课程</span><img src="../image/icon-right.png" />
+			</div></a></li>
+		</ul>
+		<div id="news"><img src="../image/teach-m5.png"/><a href="teacher_news.html"><div>
+				<span>我的消息</span><img src="../image/icon-right.png" />
+			</div></a></div>
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+	})
+</script>

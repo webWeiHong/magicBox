@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>作业布置汇总</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/header.css" />
+		<link rel="stylesheet" type="text/css" href="../css/teacher_works.css" />
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<a href="" onClick="javascript :history.back(-1);">
+					<div class="back">
+						<img src="../image/left.jpg" />
+						<p>返回</p>
+					</div>
+				</a>
+				<p>作业布置汇总</p>
+				<img class="menu" src="../image/right.png" />
+			</div>
+		</div>
+		<ul id="tab">
+			<li class="normal">
+				<a href="#list1">
+					<p>未提交</p>
+				</a>
+			</li>
+			<li>
+				<a href="#list2">
+					<p>未批阅</p>
+				</a>
+			</li>
+			<li>
+				<a href="#list3">
+					<p>已批阅</p>
+				</a>
+			</li>
+		</ul>
+
+		<div>
+			<ul id="list1" class="list normal2">
+				<li>
+					<a href="teacher_workwtj.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏1遍</p>
+					</a>
+				</li>
+				<li>
+					<a href="teacher_workwtj.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏5遍</p>
+					</a>
+				</li>
+				<li>
+					<a href="teacher_workwtj.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏5遍</p>
+					</a>
+				</li>
+			</ul>
+
+			<ul id="list2" class="list">
+				<li>
+					<a href="teacher_workwpy.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏2遍</p>
+					</a>
+				</li>
+				<li>
+					<a href="teacher_workwpy.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏5遍</p>
+					</a>
+				</li>
+				<li>
+					<a href="teacher_workwpy.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏5遍</p>
+					</a>
+				</li>
+			</ul>
+
+			<ul id="list3" class="list">
+				<li>
+					<a href="teacher_workypy.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏3遍</p>
+					</a>
+				</li>
+				<li>
+					<a href="teacher_workypy.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏5遍</p>
+					</a>
+				</li>
+				<li>
+					<a href="teacher_workypy.html">
+						<p>李瑶</p>
+						<p>钢琴弹奏5遍</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>
+<script src="../js/zepto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth / 10 + 'px';
+	window.addEventListener('resize', function() {
+		document.documentElement.style.fontSize = innerWidth / 16 + 'px';
+	})
+	$(function() {
+		//点击切换底栏
+		$('#tab li').tap(function() {
+			$(this).find('p').css('color', '#1fbad6');
+			$(this).find('p').css('border-bottom', '0.03rem solid #1fbad6');
+			$(this).siblings().find('p').css('color', '#000000');
+			$(this).siblings().find('p').css('border-bottom', 'none');
+			var index = $(this).index();
+			$(".list").eq(index).css("display", "block");
+			$(".list").eq(index).siblings().css("display", "none");
+		})
+	})
+</script>
