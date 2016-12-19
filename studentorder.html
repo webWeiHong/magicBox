@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>学生信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/studentorder.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div class="wrap">
+			<div class="top">
+				<div class="back" onclick="javascript:history.back(-1);">
+					<img src="image/left.jpg"/><p>返回</p>
+				</div>
+				<p  style="margin-left:2.69rem;">我的订单</p>
+				<img class="menu" src="image/right.png"/>	
+			</div>
+		</div>
+		<!-- nav -->
+		<div class="nav">
+			<ul>
+				<li class="active "><a href="#">全部</a></li> 
+				<li><a href="#">待付款</a></li> 
+				<li><a href="#">待确认</a></li> 
+				<li><a href="#">待评价</a></li> 
+			</ul>
+		</div>
+		<!-- order-details -->
+		<div class="order-details" id="nopay">
+			<p>订单号:<span>34345</span></p>
+			<div class="order-details-top">
+				<div class="order-img clearfix">
+					<img src="">
+					<p>陈妙君 <span>钢琴2级</span> <span>教师上门</span></p>
+				</div>
+			</div>
+		
+			<div class="count">
+				<p>
+					<span>共计4课时</span>
+					<span>合计：<i>800:00</i></span>
+				</p>
+			</div>
+			<div class="order-details-bottom">
+				<p>
+					<button>取消订单</button>
+					<button>去支付</button>
+				</p>
+			</div>
+		</div>
+		<!-- two -->
+		<div class="order-details" id="readypay">
+			<p>订单号:<span>34345</span></p>
+			<div class="order-details-top">
+				<div class="order-img clearfix">
+					<img src="">
+					<p>陈妙君 <span>钢琴2级</span> <span>教师上门</span></p>
+				</div>
+			</div>
+		
+			<div class="count">
+				<p>
+					<span>共计4课时</span>
+					<span>合计：<i>800:00</i></span>
+				</p>
+			</div>
+			<div class="order-details-bottom">
+				<p>
+					<button>再次购买</button>
+					<button>退款</button>
+					<button id="confirmbtn">去确认</button>
+				</p>
+			</div>
+		</div>
+		<!--three  -->
+		<div class="order-details" id="tocommit">
+			<p class="add-left">订单号:<span>34345</span></p> 
+			<p class="add-right"><span>已退款</span></p>
+			<div class="clear"></div>
+			<div class="order-details-top">
+				<div class="order-img clearfix">
+					<img src="">
+					<p>陈妙君 <span>钢琴2级</span> <span>教师上门</span></p>
+				</div>
+			</div>
+		
+			<div class="count">
+				<p>
+					<span>共计4课时</span>
+					<span>合计：<i>800:00</i></span>
+				</p>
+			</div>
+			<div class="order-details-bottom">
+				<p>
+					<button>再次购买</button>
+					<button id="goevaluate">去评价</button>
+				</p>
+			</div>
+		</div>
+		
+
+		
+		
+	
+
+	
+	</body>
+</html>
+<script type="text/javascript" src="./js/jquery-2.2.3.js"></script>
+<script type="text/javascript" src="./js/studentorder.js"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+
+	
+	
+
+</script>

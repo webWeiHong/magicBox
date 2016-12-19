@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>学生信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/readstudenthomework.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div class="wrap">
+			<div class="top">
+				<div class="back" onclick="javascript:history.back(-1)">
+					<img src="image/left.jpg"/><p>返回</p>
+				</div>
+				<p style="margin-left:2.69rem;">作业内容</p>
+				<img class="menu" src="image/right.png"/>	
+			</div>
+		</div>
+		<!-- text -->
+		<p class="text">作业内容</p>
+		<div class="text-box">
+			<div class="text-inner clearfix">
+				<p>作业名称：<span>钢琴弹5遍</span></p>
+				<p>完成时间：<span>2016/10/05</span></p>
+				<p class="worktext">作业内容：</p><p class="innertext">请将今天所教的内容弹奏5遍，并拍摄成视频上传。</p>
+			</div>
+		</div>
+		<!-- video-box -->
+		<div class="video-box ">
+			<div class="video">
+				<img src="./image/add.png">
+			</div>
+			<div class="video">
+				<img src="./image/add.png">
+			</div>
+			<div class="video">
+				<img src="./image/add.png">
+			</div>
+
+			<p>老师评语</p>
+		</div>
+		<!--text-content -->
+		<div class="text-content">
+			<textarea>评语评语评语评语评语评语评语评语</textarea>
+		</div>
+	
+		
+	
+
+	
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

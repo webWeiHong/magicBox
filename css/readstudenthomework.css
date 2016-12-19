@@ -1,0 +1,71 @@
+.text{
+	margin-left: 0.56rem;
+	height:0.88rem;
+	line-height: 0.88rem;
+	font-size: 0.42rem;
+}
+.text-box{
+	height:4.17rem;
+	width:10rem;
+	background: #dedede;
+}
+.text-inner>p{
+	text-indent:0.56rem;
+	font-size: 0.42rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.worktext{
+	width:2.7rem;
+	height:2.69rem;
+	float: left;	
+}
+.text-inner .innertext{
+	text-indent:0;
+	float: right;
+	width: 7.3rem;
+	height: 2.69rem;
+	line-height: 0.6rem;
+	padding-right: 0.56rem;
+
+}
+/*video-box*/
+.video-box{
+	position: relative;
+	width:10rem;
+	height:2.56rem;	
+}
+.video{
+	margin:0.32rem 0 0 0.56rem;
+	float:left;
+}
+
+.video img{
+	width:1.39rem;
+	height:1.39rem;
+}
+.video-box>p{
+	position: absolute;
+	left:0.56rem;
+	bottom:0.1rem; 
+	font-size: 0.38rem;
+}
+/*text-content*/
+.text-content{
+	width:10rem;
+	height:4.17rem;
+	background: #dedede;
+	border-top: 0.009px solid #dedede;
+}
+.text-content>textarea{
+	font-size: 0.42rem;
+	/*text-indent: 0.56rem;*/
+	background: #dedede;
+	width: 10rem;
+	height: 4.17rem;
+	line-height: 0.6rem;
+	border: none;
+	padding: 0.14rem 0.56rem 0 0.56rem;
+	color:#bcbcbc;
+	
+}

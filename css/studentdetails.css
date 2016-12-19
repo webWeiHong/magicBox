@@ -1,0 +1,62 @@
+/*detailsbox*/
+.details-box{
+	margin-top: 0.19rem;
+	height: 6.85rem;
+	width:10rem;
+	background: #fff;
+}
+.head-img p{
+	float:left;
+	margin:0.94rem 0 0.94rem 0.56rem;
+	font-size: 0.42rem;
+	font-weight: bold;
+}
+.imgbox{
+	float:right;
+	margin: 0.46rem 1.2rem 0.46rem 0;
+	width:1.39rem;
+	height:1.39rem;
+	background-color: #ccc;
+	border-radius:5px;
+}
+.table table{
+	margin-left: 0.56rem;
+	height:4.52rem;
+	width:9.45rem;
+}
+.table table td{
+	font-size: 0.42rem;
+}
+.table table td{
+	border-top: 0.009rem solid #cacaca;
+}
+.bg{
+	float:right;
+	margin-right: 0.65rem;
+	width:0.6rem;
+	height:0.7rem;
+	background-image:url(../image/map.png) ;
+	background-size:100% 100%;
+}
+.btn{
+	width:0.42rem;
+	height:0.42rem;
+}
+
+
+/*my-bottom*/
+
+.my-bottom{
+	margin-top:0.19rem;
+	height:1.22rem;
+	width:10rem;
+	background: #fff;
+}
+
+.my-bottom p a{
+	text-align: center;
+	font-size: 0.45rem;
+	color:#000;
+	display: block;
+	line-height: 1.22rem;
+}

@@ -1,0 +1,53 @@
+/*mainnav*/
+.mainnav{
+	width:10rem;
+	height:1.11rem;
+	background: #Fff;
+	border-bottom:0.009rem solid #c7c7c7;
+}
+.mainnav ul li{
+	float:left;
+}
+.mainnav ul li span{
+	font-size: 0.42rem;
+	display: block;
+	line-height:1.11rem;
+	text-align: center;
+}
+/*table*/
+.table{
+	margin-top: 0.19rem;
+	width:10rem;
+	height:5.34rem;
+	background: #fff;
+}
+.table table{
+	width:10rem;
+	height:5.34rem;
+	border-top:0.009rem solid #c7c7c7;
+	border-collapse:collapse;
+}
+.table table td{
+	font-size: 0.42rem;
+	border-left:0.009rem solid #c7c7c7;
+	border-bottom:0.009rem solid #c7c7c7;
+	text-align: center;
+}
+.table table td i,
+.table table td b
+{
+	display: block;
+	margin-left: 0.46rem;
+	width:1.67rem;
+	height:0.71rem;
+	line-height: 0.71rem;
+	text-align: center;
+	border-radius: 0.1rem;
+	color:#fff;
+}
+.table table td b{
+	background: #ff9900;
+}
+.table table td i{
+	background: #4a86e8;
+}

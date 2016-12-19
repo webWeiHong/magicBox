@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>学生信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/studentdetails.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div class="wrap">
+			<div class="top">
+				<div class="back" onclick="javascript:history.back(-1)" >
+					<img src="image/left.jpg"/><p>返回</p>
+				</div>
+				<p style="margin-left:3rem;">我的</p>
+				<img class="menu" src="image/right.png"/>	
+			</div>
+		</div>
+		<!--details-box -->
+		<div class="details-box">
+			<div class="head-img clearfix">
+				<p>头像</p>
+				<div class="imgbox"></div>
+			</div>
+			<div class="table">
+				<table  cellspacing="0">
+					<tr>
+						<td>姓名</td>
+						<td>李乐乐</td>
+					</tr>
+					<tr>
+						<td>性别</td>
+						<td>
+							<input type="radio" name="sex" value="man" class="btn"/ checked>男
+							&nbsp&nbsp&nbsp&nbsp&nbsp
+							<input type="radio" name="sex" value="woman" class="btn btn-left" />女 
+						</td>
+					</tr>
+					<tr>
+						<td>生日</td>
+						<td><span>26/10/2016</span></td>
+					</tr>
+					<tr>
+						<td><span style="display:block;margin-top:-3px;">家庭地址</span></td>
+						<td >上海市长宁区通协路268号<span class="bg"></span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--my-bottom -->
+		<div class="my-bottom">
+			<p><a href="#">修改资料</a></p>
+		</div>
+
+	
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

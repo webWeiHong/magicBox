@@ -1,0 +1,70 @@
+/*assess-details*/
+.assess-details{
+	width:10rem;
+	height:4.4rem;
+	border-bottom: 0.009rem solid #adadad;
+}
+.assess-details p{
+	line-height: 1.47rem;
+}
+.assess-details p span{
+	font-size: 0.42rem;
+	margin-left: 0.56rem;
+}
+.assess-details p b{
+	font-size: 0.42rem;
+}
+.assess-p>span{
+	float: left;
+	margin-top:-0.15rem;
+}
+.assess-p>i{
+	float:left;
+	width: 1.02rem;
+	height:1.02rem;
+	background-image:url(../image/star-03.png);
+	background-size: 100% 100%;
+	margin-left:0.3rem;
+}
+.assess-p>b{
+	float:left;
+	width: 1.02rem;
+	height:1.02rem;
+	background-image:url(../image/star-05.png);
+	background-size: 100% 100%;
+	margin-left:0.3rem;
+}
+/*advise*/
+.advise{
+	width:10rem;
+	height:3.89rem;
+	background: #fff;
+	border-bottom: 0.009rem solid #adadad;
+}
+
+.advise>textarea{
+	/*text-indent: 0.56rem;*/
+	width: 10rem;
+	height: 3.8rem;
+	background: #fff;
+	line-height: 0.6rem;
+	border: none;
+	padding: 0.14rem 0.52rem 0 0.56rem;
+	color:#aeaeae;
+	font-size: 0.42rem;
+}
+/*btn-box*/
+.btn-box{
+	position:fixed;
+	bottom:0;
+	width:10rem;
+	height:1.35rem;
+	text-align: center;
+	background: #3693fa;
+}
+.btn-box a{
+	display: block;
+	height:1.35rem;
+	line-height:1.35rem;
+	font-size: 0.42rem
+}
