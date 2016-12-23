@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>老师注册</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacherRegister.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div>
+				<p>老师注册</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>			
+		</div>
+		<div class="progressBar">
+			<div class="overallLength"></div>
+			<div class="first">1</div>
+			<div class="second">2</div>
+			<div class="third">3</div>
+		</div>
+		<div class="sendMessage">
+			<div class="tel">
+				<input type="text" name="" placeholder="请输入手机号"/>
+				<span class="time">获取验证码</span>
+			</div>
+			<div class="number">
+				<input type="text" name="" placeholder="请输入验证码"/>
+			</div>
+		</div>
+		<div class="nextBtn">
+			<a href="#"><p>下一步</p></a>
+		</div>
+	</body>
+</html>
+<script src="../js/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/teacherRegister.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

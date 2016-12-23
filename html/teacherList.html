@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>老师列表</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/teacherList.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div>
+				<p>老师列表</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>			
+		</div>
+		<div id="areaSelection">
+			<div id="areaBut">
+				<ul>
+					<li>
+					    <p>全部地区<span></span></p>
+					</li>
+					<li>
+						<p>所有科目<span></span></p>
+					</li>
+					<li>
+						<p>更多<span></span></p>
+					</li>
+				</ul>
+			</div>
+			<div id="areaDetail"> <!--class="dn"-->
+				<div id="firstSearch" class="dn">
+					<div id="subwayAndArea">
+						<ul>
+							<li>地铁</li>
+							<li>地区</li>
+						</ul>
+					</div>
+					<div id="areaContent"> <!--class="dn"-->
+						<div class="contentBySubway dn">
+							<div class="contentBySubway_left">
+								<ul>
+									<li>1号线</li>
+									<li class="bg_c">2号线</li>
+									<li class="bg_c">3号线</li>
+								</ul>
+							</div>
+							<div class="contentBySubway_right">
+								<ul style="display: block;">
+									<li>莲花路</li>
+									<li>徐泾东</li>
+									<li>人民广场</li>
+								</ul>
+								<ul style="display: none;">
+									<li>世纪大道</li>
+									<li>江苏路</li>
+									<li>徐泾东</li>
+								</ul>
+								<ul style="display: none;">
+									<li>宜山路</li>
+									<li>虹桥路</li>
+									<li>上海火车站</li>
+								</ul>
+							</div>
+						</div>
+						<div class="contentByArea dn">
+							<div class="contentByArea_left">
+								<ul>
+									<li>浦东新区</li>
+									<li class="bg_c">长宁区</li>
+									<li class="bg_c">徐汇区</li>
+								</ul>
+							</div>
+							<div class="contentByArea_right">
+								<ul style="display: block;">
+									<li>世纪大道</li>
+									<li>陆家嘴</li>
+									<li>世纪公园</li>
+								</ul>
+								<ul style="display: none;">
+									<li>淞虹路</li>
+									<li>北新泾</li>
+									<li>威宁路</li>
+								</ul>
+								<ul style="display: none;">
+									<li>虹桥路</li>
+									<li>宜山路</li>
+									<li>上海体育馆</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="secondSearch">
+					<ul>
+						<li>打击</li>
+						<li>吉他</li>
+						<li>萨克斯</li>
+						<li>黑管</li>
+						<li>小号</li>
+						<li>小提琴</li>
+						<li>钢琴</li>
+						<li>舞蹈</li>
+					</ul>
+				</div>
+				<div id="thirdSearch">
+					<ul>
+						<li>教龄</li>
+						<li>评分</li>
+						<li>距离最近</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../js/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/teacherList.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

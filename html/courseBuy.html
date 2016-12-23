@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>课程购买</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/courseBuy.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div>
+				<p>课程购买</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>			
+		</div>
+		<div class="banner">
+			<div class="wrap"></div>
+		</div>
+		<div class="chooseCourse">
+		    <ul>
+		        <li class="l1">
+		        	<p>钢琴大课</p>
+		        	<p>￥<span>4200.00</span></p>
+		        </li>
+		        <li class="l2">
+		            <p>方式</p>
+		            <p>
+		            	<span class="yesClick">教师上门</span>
+		            	<span>学生上门</span>
+		            	<span>大课</span>
+		            </p>
+		        </li>
+		        <li class="l3">
+		        	<p>等级</p>
+		        	<p>
+		        		<span class="yesClick">0-2级</span>
+		        		<span>3-5级</span>
+		        		<span>6-8级</span>
+		        		<span>9-10级</span>
+		        	</p>
+		        </li>
+		        <li class="l4">
+		        	<div class="name">购买数量</div>
+		        	<div class="number">
+		        		<span class="reduce"></span>
+		        		<span class="num">1</span>
+		        		<span class="add"></span>
+		        	</div>
+		        </li>
+		    </ul>
+		</div>
+		<div class="white"></div>
+		<div class="bottomBtn">
+			<a href="#"><p>立即购买</p></a>
+		</div>
+    </body>
+</html>
+<script src="../js/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/courseBuy.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

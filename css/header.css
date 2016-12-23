@@ -19,17 +19,17 @@
 	height: 0.46rem;
 	margin-top: 0.37rem;
 }
-.back>p{
+.back p{
 	float: left;
 	line-height: 1.2rem;
 	margin-left: 0.14rem;
 }
-.top>p{
+.top > p{
 	float: left;
 	line-height: 1.2rem;
-	/*margin-left: 3rem;*/
-	font-size: 0.45rem;
-	color:#fff;
+	margin-left: 2.58rem;
+	font-size: 0.42rem;
+	color: #ffffff;
 }
 .menu{
 	width: 0.6rem;

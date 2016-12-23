@@ -1,0 +1,229 @@
+body{
+	background-color: #f8f8f8;
+}
+.header{
+	width: 10rem;
+}
+.header .top{
+	height: 1.2rem;
+	background: #1b1a20;
+}
+.header .top .back{
+	width: 1.2rem;
+	float: left;
+	margin-left: 0.31rem;	
+	height: 1.2rem;
+	color: #ffffff;	
+	font-size: 0.39rem;
+}
+.header .top .back img{
+	float: left;
+	width: 0.28rem;
+	height: 0.46rem;
+	margin-top: 0.37rem;
+}
+.header .top .back p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 0.14rem;
+}
+.header .top > p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 2.58rem;
+	font-size: 0.45rem;
+	color: #ffffff;
+}
+.header .top .menu{
+	width: 0.6rem;
+	height: 0.15rem;
+	float: right;
+	margin: 0.53rem 0.33rem 0 0;
+}
+
+.progressBar{
+	width: 10rem;
+	height: 1.5rem;
+	overflow: hidden;
+	position: relative;
+	font-size: 0.4rem;
+}
+.progressBar .overallLength{
+	position: absolute;
+	left: 0;
+	top: 0.7rem;
+	width: 100%;
+	height: 0.03rem;
+	background-color: #1fbad6;
+}
+.progressBar .first{
+	position: absolute;
+	left: 1.9rem;
+    top: 0.35rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.05rem solid #1fbad6;
+    border-radius: 50%;
+    line-height: 0.7rem;
+    text-align: center;
+    color: white;
+    background-color: #1fbad6;
+}
+.progressBar .second{
+	position: absolute;
+	left: 4.6rem;
+    top: 0.35rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.05rem solid #1fbad6;
+    border-radius: 50%;
+    line-height: 0.7rem;
+    text-align: center;
+    color: white;
+    background-color: #1fbad6;
+}
+.progressBar .third{
+	position: absolute;
+	left: 7.1rem;
+    top: 0.35rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.05rem solid #1fbad6;
+    border-radius: 50%;
+    line-height: 0.7rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.information{
+	width: 10rem;
+	overflow: hidden;
+	margin-bottom: 0.3rem;
+}
+.information div{
+	width: 100%;
+	height: 1rem;
+	margin-bottom: 0.28rem;
+	font-size: 0.42rem;
+	border-top: 0.03rem solid #ebebeb;
+	border-bottom: 0.03rem solid #ebebeb;
+	background-color: white;
+}
+.information div > span{
+	float: left;
+	display: inline-block;
+	width: 2.7rem;
+	height: 100%;
+	line-height: 1rem;
+	text-align: center;
+}
+.information div input{
+	float: left;
+	border: none;
+	outline: none;	
+	width: 7.3rem;
+	height: 100%;
+	padding-left: 0.74rem;
+	font-size: 0.42rem;
+	color: #c8c7cc;
+}
+.information .homeAddress{
+    height: 2.1rem;
+}
+.information .homeAddress span{
+	height: 1rem;
+}
+.information .homeAddress input{
+	height: 1rem;
+}
+.information .homeAddress p{
+	float: left;
+	width: 100%;
+    height: 1rem;
+	margin-left: 0.45rem;
+	box-sizing: border-box;
+	border-top: 0.03rem solid #ebebebe;
+}
+.information .homeAddress p input{
+	width: 100%;
+	padding-left: 3rem;
+}
+.information .personalIntroduction{
+	height: 2.5rem;
+}
+.information .personalIntroduction textarea{
+	float: left;
+	border: none;
+	outline: none;	
+	width: 7.3rem;
+	height: 100%;
+	padding: 0.2rem 0.2rem 0.2rem 0.74rem;
+	font-size: 0.42rem;
+	color: #c8c7cc;
+}
+
+.information .trueData{
+	height: 1.68rem;
+	background-color: #f8f8f8;
+	border: none;
+	margin-bottom: 0.28rem;
+}
+.information .trueData p{
+	display: inline-block;
+	width: 7.3rem;
+	height: 100%;
+}
+.information .trueData p span{
+	float: left;
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 0.12rem;
+	margin: 0.3rem 1rem 0 0;
+	background-color: #f8f8f8;
+	background-image: url(../image/add.png);
+	background-size: 100% 100%;
+	color: black
+}
+.information .headerPhoto{
+	height: 1.68rem;
+	background-color: #f8f8f8;
+	border: none;
+}
+.information .headerPhoto p{
+	display: inline-block;
+	width: 7.3rem;
+	height: 100%;
+}
+.information .headerPhoto p span{
+	float: left;
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 0.12rem;
+	margin: 0.3rem 1rem 0 0;
+	background-color: #f8f8f8;
+	background-image: url(../image/add.png);
+	background-size: 100% 100%;
+	color: black;
+}
+
+.bottomBtn{
+	width: 10rem;
+	height: 1.22rem;
+	margin-top: 0.92rem;
+	font-size: 0.42rem;
+	margin-bottom: 1rem;
+}
+.bottomBtn a p{
+	width: 93%;
+	height: 100%;
+	margin-left: 3.5%;
+	background-color: #d1d1d1;
+	line-height: 1.22rem;
+	text-align: center;
+	color: white;
+	border-radius: 0.1rem;
+}
+.bottomBtn a .yesClick{
+	background-color: #1fbad6;
+}

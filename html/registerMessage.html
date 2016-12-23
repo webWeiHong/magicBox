@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>老师注册</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/registerMessage.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="back">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div>
+				<p>老师注册</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>			
+		</div>
+		<div class="progressBar">
+			<div class="overallLength"></div>
+			<div class="first">1</div>
+			<div class="second">2</div>
+			<div class="third">3</div>
+		</div>
+		<div class="information">
+			<div class="name">
+				<span>姓名</span>
+				<input type="text" name="" placeholder="请输入姓名"/>
+			</div>
+			<div class="sex">
+				<span>性别</span>
+				<input type="text" name="" placeholder="请选择"/>
+			</div>
+			<div class="bornTime">
+				<span>出生日期</span>
+				<input type="text" name="" placeholder="请选择"/>
+			</div>
+			<div class="courseType">
+				<span>授课类型</span>
+				<input type="text" name="" placeholder="请选择"/>
+			</div>
+			<div class="coachTime">
+				<span>执教时间</span>
+				<input type="text" name="" placeholder="请选择"/>
+			</div>
+			<div class="homeAddress">
+			    <span>家庭地址</span>
+				<input type="text" name="" placeholder="小区/写字楼/学校等"/>
+				<p><input type="text" name="" placeholder="详细地址"/></p>				
+			</div>
+			<div class="personalIntroduction">
+				<span>个人简介</span>
+				<textarea name="" placeholder="请输入"></textarea>
+			</div>
+			<div class="trueData">
+			    <span>认证资料</span>
+			    <p>
+			    	<span></span>
+			    	<span></span>
+			    	<span></span>
+			    </p>
+			</div>
+			<div class="headerPhoto">
+				<span>上传头像</span>
+				<p>
+					<span></span>
+				</p>
+			</div>
+		</div>
+		<div class="bottomBtn">
+			<a href="#"><p>注册</p></a>
+		</div>
+	</body>
+</html>
+<script src="../js/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/registerMessage.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

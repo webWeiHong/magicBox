@@ -1,0 +1,236 @@
+.header{
+	width: 10rem;
+}
+.header .top{
+	height: 1.2rem;
+	background: #1b1a20;
+}
+.header .top .back{
+	width: 1.2rem;
+	float: left;
+	margin-left: 0.31rem;	
+	height: 1.2rem;
+	color: #ffffff;	
+	font-size: 0.39rem;
+}
+.header .top .back img{
+	float: left;
+	width: 0.28rem;
+	height: 0.46rem;
+	margin-top: 0.37rem;
+}
+.header .top .back p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 0.14rem;
+}
+.header .top > p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 2.58rem;
+	font-size: 0.45rem;
+	color: #ffffff;
+}
+.header .top .menu{
+	width: 0.6rem;
+	height: 0.15rem;
+	float: right;
+	margin: 0.53rem 0.33rem 0 0;
+}
+
+.nav{
+	width: 10rem;
+	height: 7.2rem;
+	background-color: #3693fa;
+	overflow: hidden;
+}
+.nav .topPhoto{
+	width: 100%;
+	height: 4.4rem;
+}
+.nav .topPhoto .pic{
+	width: 2.8rem;
+	height: 100%;
+	margin-left: 3.61rem;
+	font-size: 0.45rem;
+	text-align: center;
+}
+.nav .topPhoto .pic span{
+	display: inline-block;
+	width: 100%;
+	height: 2.8rem;
+	background-image: url(../image/headerPic.gif);
+	background-size: 100% 100%;
+	margin-top: 0.28rem;
+}
+.nav .topPhoto .pic p{
+	margin-top: 0.28rem;
+	color: white;
+}
+.nav .message{
+	width: 100%;
+	height: 2.19rem;
+	font-size: 0.38rem;
+	color: white;
+	margin-top: 0.35rem;
+}
+.nav .message_left{
+	float: left;
+	width: 2.5rem;
+	height: 100%;
+}
+.nav .message_left ul{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.nav .message_left ul li{
+	float: left;
+	width: 100%;
+	height: 0.73rem;
+	padding-left: 0.7rem;
+}
+.nav .message_center{
+	float: left;
+	width: 0.05rem;
+	height: 100%;
+	background-color: white;
+}
+.nav .message_right{
+	float: left;
+	width: 7.45rem;
+	height: 100%;
+}
+.nav .message_right ul{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.nav .message_right ul li{
+	float: left;
+	width: 100%;
+	height: 0.73rem;
+	padding-left: 0.7rem;
+}
+
+.main{
+	width: 10rem;
+	overflow: hidden;
+	font-size: 0.42rem;
+}
+.main .title{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	padding-left: 0.56rem;
+}
+.main .schedule{
+	width: 100%;
+	height: 6.17rem;	
+}
+.main .schedule_title{
+	width: 100%;
+	height: 1.26rem;
+	background-color: white;
+	color:#3992f8;
+	border-bottom: 0.05rem solid #c4c4c4;
+}
+.main .schedule_title .left{
+	float: left;
+	width: 2.31rem;
+	height: 100%;
+	border-right: 0.05rem solid #c4c4c4;
+}
+.main .schedule_title .left p{
+	width: 100%;
+	height: 100%;
+	line-height: 1.26rem;
+	padding-left: 0.33rem;
+}
+.main .schedule_title .right{
+	float: left;
+	width: 7.68rem;
+	height: 100%;
+}
+.main .schedule_title .right ul{
+	width: 100%;
+	height: 100%;
+}
+.main .schedule_title .right ul li{
+	float: left;
+	line-height: 1.26rem;
+	margin: 0 0.59rem;
+}
+.main .schedule_content{
+	width: 100%;
+	height: 4.91rem;
+	font-size: 0.4rem;
+	background-color: white;
+	border-bottom: 0.05rem solid #c4c4c4;
+}
+.main .schedule_content .left{
+	float: left;
+	width: 2.31rem;
+	height: 100%;
+	border-right: 0.05rem solid #c4c4c4;
+}
+.main .schedule_content .left ul{
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;	
+}
+.main .schedule_content .left ul li{
+	width: 100%;
+	height: 0.46rem;
+	padding-left: 0.3rem;
+	margin: 0.59rem 0;
+}
+.main .schedule_content .right{
+	float: left;
+	width: 7.68rem;
+	height: 100%;
+}
+.main .schedule_content .right ul{
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;	
+}
+.main .schedule_content .right ul li{
+	width: 100%;
+	height: 0.46rem;
+	margin: 0.59rem 0;
+	text-align: center;
+}
+.main .schedule_content .right ul li span{
+	display: inline-block;
+    margin: 0 0.66rem 0 0.46rem;
+}
+
+.white{
+	width: 100%;
+	height: 1.2rem;
+	margin-top: 0.5rem;
+}
+.bottomBtn{
+	width: 10rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	bottom: 0;	
+}
+.bottomBtn span{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	font-size: 0.42rem;
+}
+.bottomBtn a:first-child span{
+	background-color: #6eb3ff;
+}
+.bottomBtn a:last-child span{
+	background-color: #3693fa;
+}

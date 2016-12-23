@@ -1,0 +1,158 @@
+body{
+	background-color: #f8f8f8;
+}
+.header{
+	width: 10rem;
+}
+.header .top{
+	height: 1.2rem;
+	background: #1b1a20;
+}
+.header .top .back{
+	width: 1.2rem;
+	float: left;
+	margin-left: 0.31rem;	
+	height: 1.2rem;
+	color: #ffffff;	
+	font-size: 0.39rem;
+}
+.header .top .back img{
+	float: left;
+	width: 0.28rem;
+	height: 0.46rem;
+	margin-top: 0.37rem;
+}
+.header .top .back p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 0.14rem;
+}
+.header .top > p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 2.58rem;
+	font-size: 0.45rem;
+	color: #ffffff;
+}
+.header .top .menu{
+	width: 0.6rem;
+	height: 0.15rem;
+	float: right;
+	margin: 0.53rem 0.33rem 0 0;
+}
+
+.progressBar{
+	width: 10rem;
+	height: 1.5rem;
+	overflow: hidden;
+	position: relative;
+	font-size: 0.4rem;
+}
+.progressBar .overallLength{
+	position: absolute;
+	left: 0;
+	top: 0.7rem;
+	width: 100%;
+	height: 0.03rem;
+	background-color: #1fbad6;
+}
+.progressBar .first{
+	position: absolute;
+	left: 1.9rem;
+    top: 0.35rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.05rem solid #1fbad6;
+    border-radius: 50%;
+    line-height: 0.7rem;
+    text-align: center;
+    color: white;
+    background-color: #1fbad6;
+}
+.progressBar .second{
+	position: absolute;
+	left: 4.6rem;
+    top: 0.35rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.05rem solid #1fbad6;
+    border-radius: 50%;
+    line-height: 0.7rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.progressBar .third{
+	position: absolute;
+	left: 7.1rem;
+    top: 0.35rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.05rem solid #1fbad6;
+    border-radius: 50%;
+    line-height: 0.7rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.sendMessage{
+	width: 10rem;
+	height: 2.78rem;
+}
+.sendMessage div{
+	width: 100%;
+	height: 1.1rem;
+	margin-bottom: 0.28rem;
+	font-size: 0.42rem;
+}
+.sendMessage div input{
+	border: none;
+	outline: none;
+	border-top: 0.03rem solid #ebebeb;
+	border-bottom: 0.03rem solid #ebebeb;
+	width: 100%;
+	height: 100%;
+	padding-left: 0.74rem;
+	font-size: 0.42rem;
+	color: #c8c7cc;
+}
+.sendMessage .tel{
+	overflow: hidden;
+}
+.sendMessage .tel input{
+	float: left;
+	width: 7.22rem;
+}
+.sendMessage .tel span{
+	float: left;
+	display: inline-block;
+	width: 2.78rem;
+	height: 100%;
+	line-height: 1.1rem;
+	text-align: center;
+	background-color: #d1d1d1;
+	color: white;
+}
+.sendMessage .tel .yesClick{
+	background-color: #1fbad6;
+}
+
+.nextBtn{
+	width: 10rem;
+	height: 1.22rem;
+	margin-top: 0.92rem;
+	font-size: 0.42rem;
+	margin-bottom: 2rem;
+}
+.nextBtn a p{
+	width: 93%;
+	height: 100%;
+	margin-left: 3.5%;
+	background-color: #d1d1d1;
+	line-height: 1.22rem;
+	text-align: center;
+	color: white;
+	border-radius: 0.1rem;
+}
+.nextBtn a .yesClick{
+	background-color: #1fbad6;
+}

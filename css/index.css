@@ -1,0 +1,125 @@
+.header{
+	width: 10rem;
+}
+.header .top{
+	height: 1.2rem;
+	background: #1b1a20;
+}
+.header .top .back{
+	width: 1.2rem;
+	float: left;
+	margin-left: 0.31rem;	
+	height: 1.2rem;
+	color: #ffffff;	
+	font-size: 0.39rem;
+}
+.header .top .back img{
+	float: left;
+	width: 0.28rem;
+	height: 0.46rem;
+	margin-top: 0.37rem;
+}
+.header .top .back p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 0.14rem;
+}
+.header .top > p{
+	float: left;
+	line-height: 1.2rem;
+	margin-left: 2.58rem;
+	font-size: 0.45rem;
+	color: #ffffff;
+}
+.header .top .menu{
+	width: 0.6rem;
+	height: 0.15rem;
+	float: right;
+	margin: 0.53rem 0.33rem 0 0;
+}
+
+
+.nav{
+	width: 10rem;	
+}
+.nav .pic{
+	height: 4rem;
+	overflow: hidden;
+}
+.nav .pic img{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+
+.container{
+	width: 10rem;
+	overflow: hidden;
+	margin-bottom: 2rem;
+}
+.container .title{
+	width: 100%;
+	height: 0.84rem;
+	font-size: 0.4rem;		
+}
+.container .title p{
+	line-height: 0.85rem;
+	color: #000000;
+	margin-left: 0.56rem;
+}
+.container .wrap{
+	width: 100%;
+	overflow: hidden;
+}
+.container .wrap ul{
+	widows: 100%;
+	height: 100%;
+}
+.container .wrap ul li{
+	width: 2.8rem;
+	height: 2.8rem;	
+	float: left;
+	margin:0 0.26rem 0.18rem 0.26rem;
+	background-size: 100% 100%;
+	position: relative;
+}
+.container .wrap ul .l1{
+	background-image: url(../image/index-05.png);
+}
+.container .wrap ul .l2{
+	background-image: url(../image/index-07.png);
+}
+.container .wrap ul .l3{
+	background-image: url(../image/index-09.png);
+}
+.container .wrap ul .l4{
+	background-image: url(../image/index-14.png);
+}
+.container .wrap ul .l5{
+	background-image: url(../image/index-15.png);
+}
+.container .wrap ul .l6{
+	background-image: url(../image/index-16.png);
+}
+.container .wrap ul .l7{
+	background-image: url(../image/index-20.png);
+}
+.container .wrap ul .l8{
+	background-image: url(../image/index-21.png);
+}
+.container .wrap ul .l9{
+	background-image: url(../image/index-22.png);
+}
+.container .wrap ul li p{
+	width: 100%;
+	height: 0.85rem;
+	line-height: 0.85rem;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 0.4rem;
+	color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}

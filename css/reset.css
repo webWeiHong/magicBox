@@ -1,12 +1,11 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;margin: 0;}
 html{
-/*font-size:62.5%;*/
+font-size:62.5%;
 font-family: "微软雅黑";
 }
 body{
 	background:#eeeff4;
-	/*font-size: 1.4rem;*/
-	
+	/*font-size: 1.4rem;*/	
 }
 body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td {
 	margin: 0;
