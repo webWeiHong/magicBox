@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>学生信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/studentorderconfirm.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div class="wrap">
+			<div class="top">
+				<div class="back" onclick="javascript:history.back(-1)">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div>
+				<p style="margin-left:2.78rem;">待确认</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		<!-- mainnav -->
+		<div class="mainnav">
+			<ul>
+				<li style="width:3.15rem;height:1.11rem;border-right:0.009rem solid #c7c7c7;"><span>订单名</span></li>
+				<li style="width:4.21rem;height:1.11rem;border-right:0.009rem solid #c7c7c7;"><span>剩余课时/总课时</span></li>
+				<li style="width:2.63rem;height:1.11rem;"><span>操作</span></li>
+			</ul>
+		</div>
+		<!-- table -->
+		<div class="table">
+			<table>
+				<tr>
+					<td style="width:3.15rem;border-left:0px;border-right:0px;" rowspan="5">
+						<span>陈秒君</span><br>
+						<span>钢琴0~2</span><br>
+						<span>课时评价</span>
+					</td>
+					<td  style="width:4.21rem;">1/4 节</td>
+					<td></td>
+				</tr>
+				<tr>
+					
+					<td>第一课时</td>
+					<td><i>已确认</i></td>
+				</tr>
+				<tr>
+					
+					<td>第二课时</td>
+					<td><b>确认</b></td>
+				</tr>
+				<tr>
+					
+					<td>第三课时</td>
+					<td><b>确认</b></td>
+				</tr>
+				<tr>
+					
+					<td>第四课时</td>
+					<td><b>确认</b></td>
+				</tr>
+			</table>
+		</div>
+
+		
+	
+
+	
+	</body>
+</html>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

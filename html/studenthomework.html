@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>学生信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/studenthomework.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div class="wrap">
+			<div class="top">
+				<div class="back" onclick="javascript:history.back(-1)">
+					<img src="../image/left.jpg"/><p>返回</p>
+				</div>
+				<p style="margin-left:2.69rem;">我的作业</p>
+				<img class="menu" src="../image/right.png"/>	
+			</div>
+		</div>
+		<!-- homework-top -->
+		<div class="homework-top">
+			<ul id="ul">
+				<li class="active"><a href="#">未完成</a></li>
+				<li class="add-li"><a href="#">已提交</a></li>
+			</ul>
+		</div>
+		<div class="put-homework">
+			<ul class="ul-list current">
+				<li>
+					<p class="p-left" id="workdet">
+						<a href="#" style="color:#000">钢琴弹奏5遍</a>
+					</p>
+					<button class="p-right p-border">
+						<a href="" style="color:#000">提交作业</a>
+					</button>
+				</li>
+				<li>
+					<p class="p-left" >
+						<a href="homeworkdetails.html" style="color:#000">钢琴弹奏5遍</a>
+					</p>
+					<button class="p-right p-border">
+						<a href="" style="color:#000" >提交作业</a>
+					</button>
+				</li>
+			</ul>
+			<ul class="ul-list">
+				<li>
+					<p class="p-left">
+						<a href="noreadstudenthomework.html" style="color:#000">钢琴弹奏5遍</a>
+					</p>
+					<p class="p-right" style="color:#f61211">未批阅</p>
+				</li>
+				<li>
+					<p class="p-left">
+						<a href="readstudenthomework.html" style="color:#000">钢琴弹奏5遍</a>
+					</p>
+					<p class="p-right" style="color:#1fb9d5">已批阅</p>
+				</li>
+			</ul>
+		</div>
+
+		
+	
+	</body>
+</html>
+<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+<script type="text/javascript" src="../js/studenthomework.js"></script>
+<script type="text/javascript">
+	document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	window.addEventListener('resize',function(){
+		document.documentElement.style.fontSize = innerWidth/10 + 'px';
+	})
+</script>

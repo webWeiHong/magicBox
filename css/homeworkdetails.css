@@ -67,6 +67,12 @@
 	height:1.35rem;
 	text-align: center;
 	background: #3693fa;
+
+}
+.white{
+	width:10rem;
+	height:1.35rem;
+	margin-top: 0.5rem;
 }
 .foot>a{
 	display: block;

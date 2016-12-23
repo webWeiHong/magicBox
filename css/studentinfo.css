@@ -114,6 +114,9 @@
 	height:1.22rem;
 	background: #fff;
 }
+.margin-bot{
+	margin-bottom: 1rem;
+}
 .p-left{
 	float: left;
 	font-size: 0.4rem;
